@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+
+.contacts-details{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contacts-intro{
+    padding-top: 5%;
+    
+}
+
+.h-intro{
+ font-size: 40px;
+ color:#17736A ;
+ text-align: center;
+ padding-top: 110px;
+ font-family: "Aclonica", sans-serif;
+}
+
+.p-subscribe{
+ color:#17736A ;
+ font-size: 30px;
+ text-align: center;
+ padding-top: 50px;
+ font-family: "Besley", serif;
+ 
+
+}
+
+.subscribe-side{
+   
+    padding-left: 30%;
+    
+
+}
+
+.input{
+    border: solid 2px #17736A;
+    color: #17736A;
+    border-radius: 70px;
+    padding: 20px 70px;
+    background-color: white;
+    font-size: 20px;
+    font-family: "Besley", serif;
+    position: relative;
+    font-weight: bold;
+    opacity: 70%;
+    
+}
+
+.subscribe-button{
+   
+    color: white;
+    padding: 22.5px 20px;
+    border: none;
+    border-radius: 0 70px 70px 0; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #F15A29;
+    font-size: 30px;
+    font-family: "Aclonica", sans-serif;
+    position: absolute;
+    top: 42.4%; 
+    left: 54%;  
+}
+
+.subscribe-button:hover {
+    background-color: #17736A;
+
+}
+
+ hr {
+    width: 90%; 
+    height: 3px; 
+    margin: 20px auto; 
+    border: none; 
+    background-color: #000;
+    margin-top: 6%;
+    }
+
+
+.social-handles{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+
+}
+
+.follow-us{
+   font-size: 32px;
+   color: #17736A;
+   padding-left: 35%;   
+   font-family: "Aclonica", sans-serif;
+
+}
+
+.icons{
+    display: flex;
+    gap: 2%;
+    padding-left: 45%;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+.icon:hover {
+    background-color: #17736A;
+
+}
+
+.p-copyright{
+    text-align: center;
+    color: #F15A29;
+    font-size: 23px;
+    font-family: "Besley", serif;
+    padding-top: 1%;
+    font-weight: bold;
+
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 340px){
+    .contacts-details{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .h-intro{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    .p-subscribe{
+        font-size: 15px;
+        padding-top: 25px;
+    }
+    .subscribe-side{
+        padding-left: 5%;
+    }
+    .input{
+        padding: 10px 35px;
+        font-size: 8px;
+    }
+    .subscribe-button{
+        padding: 13px 10px;
+        font-size: 10px;
+        top: 31.1%;
+        left: 64%;
+
+    }
+    .follow-us{
+        font-size: 16px;
+        padding-left: 20%;
+    }
+    .icons{
+        padding-left: 30%;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .p-copyright{
+        font-size: 9px;
+    }
+}
+@media screen and (min-width: 341px) and (max-width: 359px){
+   
+    .h-intro{
+        font-size: 25px;
+        padding-top: 150px;
+    }
+    .p-subscribe{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .subscribe-side{
+        margin-left: -30%;
+    }
+    .input{
+        padding: 22px 70px;
+        font-size: 8px;
+    }
+    .subscribe-button{
+        padding: 24px 8px;
+        font-size: 12px;
+        left: 68%;
+        top: 40%;
+      
+        
+    }
+    .follow-us{
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    .icons{
+        padding-left: 35%;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .p-copyright{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px){
+   
+    .h-intro{
+        font-size: 20px;
+        padding-top: 150px;
+    }
+    .p-subscribe{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .subscribe-side{
+        margin-left: -30%;
+    }
+    .input{
+        padding: 22px 70px;
+        font-size: 8px;
+    }
+    .subscribe-button{
+        padding: 24px 8px;
+        font-size: 12px;
+        left: 68%;
+        top: 41.8%;
+      
+        
+    }
+    .follow-us{
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    .icons{
+        padding-left: 35%;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .p-copyright{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 389px){
+   
+    .h-intro{
+        font-size: 20px;
+        padding-top: 150px;
+    }
+    .p-subscribe{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .subscribe-side{
+        margin-left: -30%;
+    }
+    .input{
+        padding: 22px 70px;
+        font-size: 8px;
+    }
+    .subscribe-button{
+        padding: 24px 8px;
+        font-size: 12px;
+        left: 68%;
+        top: 46.4%;
+      
+        
+    }
+    .follow-us{
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    .icons{
+        padding-left: 35%;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .p-copyright{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 390px) and (max-width: 411px){
+    .contacts-details{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .h-intro{
+        font-size: 25px;
+        padding-top: 60px;
+    }
+    .p-subscribe{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .subscribe-side{
+        margin-left: -30%;
+    }
+    .input{
+        padding: 12px 70px;
+        font-size: 8px;
+    }
+    .subscribe-button{
+        padding: 14px 8px;
+        font-size: 12px;
+        top: 29.25%;
+        left: 68%;
+        margin-right: 10%;
+        margin-top: 1%;
+        
+    }
+    .follow-us{
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    .icons{
+        padding-left: 35%;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .p-copyright{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 480px){
+   
+    .h-intro{
+        font-size: 20px;
+        padding-top: 150px;
+    }
+    .p-subscribe{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .subscribe-side{
+        margin-left: -27.5%;
+    }
+    .input{
+        padding: 22px 70px;
+        font-size: 8px;
+    }
+    .subscribe-button{
+        padding: 24px 8px;
+        font-size: 12px;
+        left: 68%;
+        top: 34%;
+      
+        
+    }
+    .follow-us{
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    .icons{
+        padding-left: 35%;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .p-copyright{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 680px){
+    
+    .h-intro{
+        font-size: 30px;
+        padding-top: 70px;
+    }
+    .p-subscribe{
+        font-size: 20px;
+        padding-top: 35px;
+    }
+    .subscribe-side{
+        margin-left: -30%;
+    }
+    .input{
+        padding: 15px 50px;
+        font-size: 15px;
+    }
+    .subscribe-button{
+        padding: 16.5px 15px;
+        font-size: 22.5px;
+        top: 40.2%;
+        left: 60%;
+    }
+    .follow-us{
+        font-size: 24px;
+        padding-left: 30%;
+    }
+    .icons{
+        padding-left: 40%;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .p-copyright{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 819px){
+    .contacts-details{
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    .h-intro{
+        font-size: 35px;
+        padding-top: 80px;
+    }
+    .p-subscribe{
+        font-size: 25px;
+        padding-top: 40px;
+    }
+    .subscribe-side{
+        margin-left: -24%;
+
+    }
+    .input{
+        padding: 17px 75px;
+        font-size: 18px;
+    }
+    .subscribe-button{
+        padding: 19.7px 17px;
+        font-size: 25px;
+        top: 34.1%;
+        left: 63%;
+    }
+    .follow-us{
+        font-size: 28px;
+        padding-left: 32%;
+    }
+    .icons{
+        padding-left: 42%;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .p-copyright{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 880px){
+    .contacts-details{
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    .h-intro{
+        font-size: 35px;
+        padding-top: 80px;
+    }
+    .p-subscribe{
+        font-size: 25px;
+        padding-top: 40px;
+    }
+    .subscribe-side{
+        margin-left: -24%;
+
+    }
+    .input{
+        padding: 17px 90px;
+        font-size: 18px;
+    }
+    .subscribe-button{
+        padding: 20.5px 20px;
+        font-size: 25px;
+        top: 29.7%;
+        left: 63%;
+    }
+    .follow-us{
+        font-size: 28px;
+        padding-left: 32%;
+    }
+    .icons{
+        padding-left: 42%;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .p-copyright{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1019px){
+    
+    .h-intro{
+        font-size: 40px;
+        padding-top: 300px;
+    }
+    .p-subscribe{
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .subscribe-side{
+        margin-left: -20%;
+    }
+    .input{
+        padding: 30px 80px;
+        font-size: 19px;
+    }
+    .subscribe-button{
+        padding: 34px 22px;
+        font-size: 27px;
+        top: 44.8%;
+        left: 60%;
+    }
+    .follow-us{
+        font-size: 30px;
+        padding-left: 33%;
+    }
+    .icons{
+        padding-left: 44%;
+    }
+    .icon{
+        width: 45px;
+        height: 45px;
+    }
+    .p-copyright{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1030px){
+    
+    .h-intro{
+        font-size: 38px;
+        padding-top: 1px;
+    }
+    .p-subscribe{
+        font-size: 28px;
+        padding-top: 1px;
+    }
+    .subscribe-side{
+        margin-left: -20%;
+    }
+    .input{
+        padding: 19px 67px;
+        font-size: 20px;
+    }
+    .subscribe-button{
+        padding: 23px 19px;
+        font-size: 28px;
+        top: 35.5%;
+        left: 64%;
+    }
+    .follow-us{
+        font-size: 31px;
+        padding-left: 34%;
+    }
+
+    hr {
+        width: 90%; 
+        border: none; 
+        background-color: #000;
+        margin-top: -2%;
+        
+        }
+
+    .icons{
+        padding-left: 45%;
+    }
+    .icon{
+        width: 46px;
+        height: 46px;
+    }
+    .p-copyright{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1080px){
+    
+    .h-intro{
+        font-size: 38px;
+        padding-top: 1px;
+    }
+    .p-subscribe{
+        font-size: 28px;
+        padding-top: 1px;
+    }
+    .subscribe-side{
+        padding-left: 30%;
+    }
+    .input{
+        padding: 19px 67px;
+        font-size: 20px;
+    }
+    .subscribe-button{
+        padding: 23px 19px;
+        font-size: 28px;
+        top: 35.5%;
+        left: 54%;
+    }
+    .follow-us{
+        font-size: 31px;
+        padding-left: 34%;
+    }
+
+    hr {
+        width: 90%; 
+        border: none; 
+        background-color: #000;
+        margin-top: -2%;
+        
+        }
+
+    .icons{
+        padding-left: 45%;
+    }
+    .icon{
+        width: 46px;
+        height: 46px;
+    }
+    .p-copyright{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px){
+    .contacts-details{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .h-intro{
+        font-size: 39px;
+        padding-top: 35px;
+    }
+    .p-subscribe{
+        font-size: 29px;
+        padding-top: 30px;
+    }
+    .subscribe-side{
+        margin-left: -8%;
+        margin-top: 2%;
+    }
+    .input{
+        padding: 19px 70px;
+        font-size: 21px;
+    }
+    .subscribe-button{
+        padding: 22px 20px;
+        font-size: 29px;
+        top: 36.4%;
+        left: 59%;
+    }
+    .follow-us{
+        font-size: 32px;
+        padding-left: 34%;
+    }
+    hr {
+        width: 90%; 
+        border: none; 
+        background-color: #000;
+        margin-top: 4%;
+        
+        }
+
+    .icons{
+        padding-left: 45%;
+    }
+    .icon{
+        width: 47px;
+        height: 47px;
+    }
+    .p-copyright{
+        font-size: 21px;
+    }
+}

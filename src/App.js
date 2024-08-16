@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import LandingPage from "./LandingPage";
+import Podcast from "./Podcast";
+import Blogs from "./Blogs";
+import Videos from "./Videos"
+import Contacts from "./Contacts";
+import Portfolios from "./Portfolios";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+const App =()=>{
+  return(
+    <div>
+      <Router>
+        <Routes>
+        <Route exact path="/" element={
+          <>
+           <LandingPage/>
+          </>
+        } />
+        <Route path="/Videos" element={<Videos/>}/>
+        <Route path="/Podcast" element={<Podcast/>}/>
+        <Route path="/Blogs" element={<Blogs/>}/>
+        <Route path="/Portfolio" element={<Portfolios/>}/>
+        <Route path="/Contacts" element={<Contacts/>}/>
+      
+        </Routes>
+      </Router>    
     </div>
-  );
+  )
 }
-
 export default App;

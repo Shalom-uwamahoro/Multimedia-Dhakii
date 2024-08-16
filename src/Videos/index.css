@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+.heading{
+    font-weight: 800;
+    margin-top: 2%;
+    margin-left: 29%;
+    font-style: normal;
+    color: #17736A;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.video1{
+    width: 450px;
+    height: 280px;
+    margin: 20px auto;
+    background-color: #F16849;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border-radius: 10px;
+}
+.video2{
+    width: 450px;
+    height: 280px;
+    margin: 20px auto;
+    background-color: #F16849;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-left: -4%;
+    border-radius: 10px;
+}
+.video3{
+    width: 450px;
+    height: 280px;
+    margin: 20px auto;
+    background-color: #F16849;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-left: -12%;
+    border-radius: 10px;
+}
+.video4{
+    width: 450px;
+    height: 280px;
+    margin: 20px auto;
+    background-color: #F16849;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border-radius: 10px;
+    margin-left: 60%;
+}
+.video5{
+    width: 450px;
+    height: 280px;
+    margin: 20px auto;
+    background-color: #F16849;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border-radius: 10px;
+    margin-left: 50%;
+}
+.title{
+    font-size: 15px;
+    color: black;
+    font-family: "Aclonica", sans-serif;
+    margin-left: 5%;
+}
+.text{
+    width: 50%;
+    align-content: center;
+    font-size: 20px;
+    font-family: "Besley", serif;
+    margin-left: 29%;
+    color: #17736A;
+    font-weight: 200;
+    font-style: italic;
+}
+.image{
+    width: 200px;
+    height: 100px;
+    margin-left: -2%;
+    margin-top: -2%;
+    border-radius: 10px;
+}
+@media screen and (min-width: 280px) and (max-width: 359px) {
+    .heading{
+        font-weight: 700;
+      font-size: 14px;
+      margin-left: 13%;
+      margin-top: 4%;
+    }
+    .title{
+        font-size: 10px;
+        width: 90%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 4%;
+    }
+    .text{
+        width: 70%;
+        align-content: center;
+        font-size: 10px;
+        font-family: "Besley", serif;
+        margin-left: 13%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        display: block;
+        gap: 5%;
+        margin-top: 2%;
+    }
+    .video1{
+        width: 240px;
+        height: 200px;
+        margin-left: 10%;
+        display: grid;
+    }
+    .video2{
+        width: 240px;
+        height: 200px;
+        margin-left: 10%;
+        display: grid;
+    }
+    .video3{
+        width: 240px;
+        height: 200px;
+        margin-left: 10%;
+        display: grid;
+    }
+    .video4{
+        width: 240px;
+        height: 200px;
+        margin-left: 10%;
+        display: grid;
+    }
+    .video5{
+        width: 240px;
+        height: 200px;
+        margin-left: 10%;
+        display: grid;
+    }
+    .image{
+        width: 150px;
+        height: 80px;
+        margin-left: 5%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 380px) {
+    .heading{
+        font-weight: 700;
+      font-size: 18px;
+      margin-left: 6%;
+      margin-top: 5%;
+    }
+    .title{
+        font-size: 12px;
+        width: 90%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 10%;
+    }
+    .text{
+        width: 89%;
+        align-content: center;
+        font-size: 10px;
+        font-family: "Besley", serif;
+        margin-left: 6%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        display: block;
+        gap: 5%;
+        margin-top: 2%;
+    }
+    .video1{
+        width: 320px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .video2{
+        width: 320px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .video3{
+        width: 320px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .video4{
+        width: 320px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .video5{
+        width: 320px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .image{
+        width: 170px;
+        height: 90px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 381px) and (max-width: 480px) {
+    .heading{
+        font-weight: 600;
+      font-size: 20px;
+      margin-left: 6%;
+      margin-top: 4%;
+    }
+    .title{
+        font-size: 14px;
+        width: 100%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 1%;
+    }
+    .text{
+        width: 85%;
+        align-content: center;
+        font-size: 12px;
+        font-family: "Besley", serif;
+        margin-left: 6%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        display: block;
+        gap: 5%;
+        margin-top: 2%;
+    }
+    .video1{
+        width: 360px;
+        height: 200px;
+        margin-left: 4%;
+        display: grid;
+    }
+    .video2{
+        width: 360px;
+        height: 200px;
+        margin-left: 4%;
+        display: grid;
+    }
+    .video3{
+        width: 360px;
+        height: 200px;
+        margin-left: 4%;
+        display: grid;
+    }
+
+.video4{
+        width: 360px;
+        height: 200px;
+        margin-left: 4%;
+        display: grid;
+    }
+    .video5{
+        width: 360px;
+        height: 200px;
+        margin-left: 4%;
+        display: grid;
+    }
+    .image{
+        width: 170px;
+        height: 90px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 580px) {
+    .heading{
+        font-weight: 600;
+      font-size: 21px;
+      margin-left: 4%;
+      margin-top: 4%;
+    }
+    .title{
+        font-size: 14px;
+        width: 100%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 1%;
+    }
+    .text{
+        width: 93%;
+        align-content: center;
+        font-size: 12px;
+        font-family: "Besley", serif;
+        margin-left: 4%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        display: block;
+        gap: 5%;
+        margin-top: 2%;
+    }
+    .video1{
+        width: 360px;
+        height: 200px;
+        margin-left: 1%;
+        display: grid;
+    }
+    .video2{
+        width: 360px;
+        height: 200px;
+        margin-left: 1%;
+        display: grid;
+    }
+    .video3{
+        width: 360px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .video4{
+        width: 360px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .video5{
+        width: 360px;
+        height: 200px;
+        margin-left: 3%;
+        display: grid;
+    }
+    .image{
+        width: 170px;
+        height: 90px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 770px) {
+    .heading{
+        font-weight: 700;
+      font-size: 35px;
+      margin-left: 5%;
+      margin-top: 4%;
+    }
+    .title{
+        font-size: 14px;
+        width: 100%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 1%;
+    }
+    .text{
+        width: 90%;
+        align-content: center;
+        font-size: 20px;
+        font-family: "Besley", serif;
+        margin-left: 5%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        display: block;
+        margin-top: 2%;
+        display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    margin-left: 5%;
+    }
+    .video1{
+        width: 300px;
+        height: 200px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video2{
+        width: 300px;
+        height: 200px;
+        margin-left: 2%;
+        display: grid;
+    }
+    .video3{
+        width: 300px;
+        height: 200px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video4{
+        width: 300px;
+        height: 200px;
+        margin-left: 2%;
+        display: grid;
+    }
+    .video5{
+        width: 300px;
+        height: 200px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .image{
+        width: 170px;
+        height: 90px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 920px) {
+    .heading{
+        font-weight: 700;
+      font-size: 40px;
+      margin-left: 6%;
+      margin-top: 4%;
+    }
+    .title{
+        font-size: 14px;
+        width: 100%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 1%;
+    }
+    .text{
+        width: 90%;
+        align-content: center;
+        font-size: 25px;
+        font-family: "Besley", serif;
+        margin-left: 6%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        display: block;
+        margin-top: 2%;
+        display: grid;
+        margin-left: 6%;
+    grid-template-columns: repeat(2, 3fr);
+    }
+    .video1{
+        width: 300px;
+        height: 200px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video2{
+        width: 300px;
+        height: 200px;
+        margin-left: 2%;
+        display: grid;
+    }
+    .video3{
+        width: 300px;
+        height: 200px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video4{
+        width: 300px;
+        height: 200px;
+        margin-left: 2%;
+        display: grid;
+    }
+    .video5{
+        width: 300px;
+        height: 200px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .image{
+        width: 170px;
+        height: 90px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 921px) and (max-width: 1024px) {
+    .heading{
+        font-weight: 700;
+      font-size: 30px;
+      margin-left: 4%;
+      margin-top: 5%;
+    }
+    .title{
+        font-size: 17px;
+        width: 90%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 1%;
+    }
+    .text{
+        width: 90%;
+        align-content: center;
+        font-size: 20px;
+        font-family: "Besley", serif;
+        margin-left: 4%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .videos{
+        margin-top: 2%;
+        display: grid;
+        margin-left: 5%;
+    grid-template-columns: repeat(2, 3fr);
+    }
+    .video1{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video2{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video3{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video4{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video5{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .image{
+        width: 220px;
+        height: 130px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+    .heading{
+        font-weight: 700;
+      font-size: 40px;
+      margin-left: 4%;
+      margin-top: 4%;
+    }
+
+    .title{
+        font-size: 18px;
+        width: 80%;
+        color: black;
+        font-family: "Aclonica", sans-serif;
+        margin-left: 1%;
+    }
+    .text{
+        width: 90%;
+        align-content: center;
+        font-size: 30px;
+        font-family: "Besley", serif;
+        margin-left: 4%;
+        color: #17736A;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .videos{
+        display: block;
+        margin-top: 2%;
+        display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    }
+
+    .video1{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video2{
+        width: 350px;
+        height: 250px;
+        margin-left: 2%;
+        display: grid;
+    }
+    .video3{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .video4{
+        width: 350px;
+        height: 250px;
+        margin-left: 2%;
+        display: grid;
+    }
+    .video5{
+        width: 350px;
+        height: 250px;
+        margin-left: -2%;
+        display: grid;
+    }
+    .image{
+        width: 200px;
+        height: 100px;
+        margin-left: 11%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
