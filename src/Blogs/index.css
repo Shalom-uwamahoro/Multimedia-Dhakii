@@ -58,13 +58,13 @@
 }
 .button{
     width: 170px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     border: none;
     margin-top: 0px;
     margin-left: 5px;
     color:#F24C27;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: bold;
 }
 .hamburger-button{
