@@ -8,6 +8,7 @@ import Shalom from '../Assets/Shalom.png'
 
 function Portfolios(){
     return(
+      <> 
  <div className='Portfolios'>
   <div>
         <h3 id='portfolio'>Our Portfolios</h3>
@@ -103,7 +104,7 @@ function Portfolios(){
       </div>
       </div>
       <div>
-x      <h3 id='myprofile'>MY PROFILE</h3>
+    <h3 id='myprofile'>MY PROFILE</h3>
        <div className='myprofile'>
       <div id='skills'>
         <h4>SKILLS</h4>
@@ -236,7 +237,7 @@ x      <h3 id='myprofile'>MY PROFILE</h3>
       </div>
       </div>
       <div>
-x      <h3 id='myprofile'>MY PROFILE</h3>
+     <h3 id='myprofile'>MY PROFILE</h3>
       <div>
       <div className='myprofile'>
       <div id='skills'>
@@ -346,11 +347,11 @@ x      <h3 id='myprofile'>MY PROFILE</h3>
         <p id='personal-statement'>
         <p> Tel no: +254719265993 |Linkedin |Github |Email
         </p>
-        Martha comes from a community where a quarter of the population suffers
+        Shalom comes from a community where a quarter of the population suffers
         from cancer and struggles to access proper care. Shockingly, most of
         the hospitals in the area lack the crucial diagnostic tools needed to
         tackle this disease effectively. After the loss of her grandmother due
-        to a misdiagnosed illness, Martha witnessed firsthand the harsh realities
+        to a misdiagnosed illness, Shalom witnessed firsthand the harsh realities
         of rural healthcare. This experience ignited a fierce determination within
         her to pursue software engineering, with a firm belief in the power of technology
         to address these pressing issues. She intends to leverage her software development
@@ -399,6 +400,7 @@ x      <h3 id='myprofile'>MY PROFILE</h3>
     </div>
     </div>
   </div>
+  </>
     )
  }
  export default Portfolios;

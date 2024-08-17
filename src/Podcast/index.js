@@ -7,6 +7,7 @@ import { FaPlay } from "react-icons/fa";
 const Podcast = () => {
   return (
     <>
+    
       <div className="podcast">
         <div className="landing-page">
           <h2 className="page-intro">LETS TALK CREATIVITY</h2>

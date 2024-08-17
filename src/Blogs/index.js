@@ -23,6 +23,7 @@ const Blogs=()=>{
                     <a href='Podcasts'> Podcasts</a>
                     <a href='Blogs' id='bl'>Blogs</a>
                     <a href='Portfolios'>Portfolis</a>
+                    <a href='Contacts'>Contacts</a>
             </div>
             </div>
             <div className='BlogsBody'>

@@ -34,16 +34,11 @@ const Contacts = ()=>{
             </div>
             <p className='p-copyright'>copyright&#xa9;dhaki2024.All right reserved</p>
             
-         </div>
-
-        
+         </div>      
 
         </div>
 
-
-
-    )
-    
+    )   
 }
 
 export default Contacts;
